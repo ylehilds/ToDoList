@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/work_ab_layout"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:id="@+id/work_lin_layout"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+<ImageButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/back1" android:id="@+id/back" android:layout_alignParentLeft="true"></ImageButton>
+<ImageButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/clearlist" android:id="@+id/clear_all_list" android:layout_alignParentRight="true"></ImageButton>
+<ImageButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/emailpic1" android:id="@+id/email" android:layout_y="75px"  android:layout_x="251px" android:layout_alignParentTop="true" android:layout_alignWithParentIfMissing="true" android:layout_centerInParent="true"></ImageButton>
+
+</RelativeLayout>
+<EditText
+    android:id="@+id/myEditText"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text=""  
+    />
+    <ListView
+    android:id="@+id/myListView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    />
+</LinearLayout>
+</AbsoluteLayout>
+
+

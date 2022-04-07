@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.lehidev.android"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".ToDoList"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+<activity android:name=".schoolList" 
+android:label="@string/school_app_name"
+android:theme="@style/ToDoTheme">
+<intent-filter>
+                <action android:name="android.intent.action.school" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            </activity>
+            
+            <activity android:name=".workList" 
+			android:label="@string/work_app_name"
+			android:theme="@style/ToDoTheme">
+			<intent-filter>
+                <action android:name="android.intent.action.work" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            </activity>
+            
+             <activity android:name=".groceriesList" 
+			android:label="@string/groceries_app_name"
+			android:theme="@style/ToDoTheme">
+			<intent-filter>
+                <action android:name="android.intent.action.groceries" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            </activity>
+            
+            <activity android:name=".wantsList" 
+			android:label="@string/wants_app_name"
+			android:theme="@style/ToDoTheme">
+			<intent-filter>
+                <action android:name="android.intent.action.wants" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            </activity>
+            
+    </application>
+</manifest>

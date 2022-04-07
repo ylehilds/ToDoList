@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ToDoList!</string>
+    <string name="app_name">To Do List</string>
+    <string name="school_app_name">School To Do List</string>
+    <string name="groceries_app_name">Groceries To Get List</string>
+    <string name="work_app_name">Work To Do List</string>
+    <string name="wants_app_name">Wants List</string>
+    <string name="School">School</string>
+    <string name="Work">Work</string>
+    <string name="Groceries">Groceries</string>
+    <string name="Wants">Wants</string>
+</resources>
