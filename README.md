@@ -1,4 +1,5 @@
-# ToDoList
+# Task Management Android App
+
 A lightweight, privacy-friendly **Android To-Do list application** written in **Java**. It focuses on clean structure and the core task flows—**add**, **toggle complete**, **list**, and **delete**—without unnecessary permissions or third-party services. Ideal as a compact, portfolio-ready Android project.
 
 ## Features
